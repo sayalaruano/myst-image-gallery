@@ -1,0 +1,25 @@
+# myst.yml
+version: 1
+project:
+  title: MyST Image Gallery
+  description: MyST Python executable plugin to create a image gallery
+  keywords: [myst, myst-plugin, python, image-gallery]
+  authors:
+    - name: Sebastian Ayala Ruano
+      url: https://sayalaruano.github.io/
+      orcid: 0000-0001-9756-6745
+      github: sayalaruano
+  github: https://github.com/sayalaruano/myst-image-gallery
+  license: MIT
+  open_access: true
+  plugins:
+    - type: executable
+      path: image_gallery_plugin.py 
+  toc:
+    - file: image-gallery.md
+site:
+  template: book-theme
+  title: MyST Image Gallery
+  options:
+    hide_toc: true
+    hide_outline: true
