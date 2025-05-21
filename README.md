@@ -1,4 +1,7 @@
 # MyST Image Galllery
+[![View - Example](https://img.shields.io/badge/view-Example-orange?style=flat)][example]
+[![Deploy](https://github.com/sayalaruano/myst-image-gallery/actions/workflows/deploy.yml/badge.svg)][deploy-gh-action]
+[![License](https://img.shields.io/github/license/sayalaruano/myst-image-gallery)][license]
 
 MyST Image Gallery is a Python [executable plugin][myst-ex-plugin] designed to create felxible image galleries within [MyST Markdown][myst] projects.
 
@@ -55,3 +58,6 @@ This project was inspired by the [cookbook gallery][gallery-pythia] from the [Pr
 [myst]: https://mystmd.org/
 [pythia]: https://projectpythia-mystmd.github.io/
 [gallery-pythia]: https://github.com/projectpythia-mystmd/cookbook-gallery
+[example]: https://sayalaruano.github.io/myst-image-gallery/
+[deploy-gh-action]: https://github.com/sayalaruano/myst-image-gallery/actions/workflows/deploy.yml
+[license]: https://github.com/sayalaruano/myst-image-gallery/blob/main/LICENSE.md
